@@ -182,6 +182,7 @@ input {
 
 .nav__logo-icon {
     font-size: 1.25rem;
+    color: hsl(305, 85%, 73%);
 }
 
 .nav__btns {
@@ -546,7 +547,7 @@ input {
     display: flex;
     justify-content: space-between;
     border-radius: .75rem;
-    width: 550px
+    width: 5px
 }
 
 .newletter__input {
