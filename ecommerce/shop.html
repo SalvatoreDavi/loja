@@ -28,7 +28,7 @@
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="index.html" class="nav__link">Home</a>
+                        <a href="index.html" class="nav__link">Início</a>
                     </li>
 
                     <li class="nav__item">
@@ -45,7 +45,7 @@
                     </li>
 
                     <li class="nav__item">
-                        <a href="faq.html" class="nav__link">Faq's</a>
+                        <a href="faq.html" class="nav__link">FAQ</a>
                     </li>
 
                     <li class="nav__item">
@@ -77,69 +77,69 @@
     <div class="cart" id="cart">
         <i class="bx bx-x cart__close" id="cart-close"></i>
 
-        <h2 class="cart__title-center">My Cart</h2>
+        <h2 class="cart__title-center">Meu carrinho</h2>
 
         <div class="cart__container">
             <article class="cart__card">
                 <div class="cart__box">
-                    <img src="assets/img/cart-1.png" alt="" class="cart__img">
+                    <img src="assets/img/new-1.png" alt="" class="cart__img">
                 </div>
 
                 <div class="cart__details">
-                    <h3 class="cart__title">WindBreaker</h3>
+                    <h3 class="cart__title">Pijama macacão</h3>
+                    <span class="cart__price">R$ 79,90</span>
+
+                    <div class="cart__amount">
+                        <div class="cart__amount-content">
+                            <span class="cart__amount-box">
+                                <i class="bx bx-minus"></i>
+                            </span>
+
+                            <span class="cart__amount-number">1</span>
+
+                            <span class="cart__amount-box">
+                                <i class="bx bx-plus"></i>
+                            </span>
+                        </div>
+
+                        <i class="bx bx-trash-alt cart__amount-trash"></i>
+                    </div>
+                </div>
+            </article>
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img src="assets/img/new-2.png" alt="" class="cart__img">
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">Pijama morangos</h3>
+                    <span class="cart__price">R$ 99,90</span>
+
+                    <div class="cart__amount">
+                        <div class="cart__amount-content">
+                            <span class="cart__amount-box">
+                                <i class="bx bx-minus"></i>
+                            </span>
+
+                            <span class="cart__amount-number">1</span>
+
+                            <span class="cart__amount-box">
+                                <i class="bx bx-plus"></i>
+                            </span>
+                        </div>
+
+                        <i class="bx bx-trash-alt cart__amount-trash"></i>
+                    </div>
+                </div>
+            </article>
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img src="assets/img/new-3.png" alt="" class="cart__img">
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__le">Pijama Stitch</h3>
                     <span class="cart__price">R$ 59,90</span>
-
-                    <div class="cart__amount">
-                        <div class="cart__amount-content">
-                            <span class="cart__amount-box">
-                                <i class="bx bx-minus"></i>
-                            </span>
-
-                            <span class="cart__amount-number">1</span>
-
-                            <span class="cart__amount-box">
-                                <i class="bx bx-plus"></i>
-                            </span>
-                        </div>
-
-                        <i class="bx bx-trash-alt cart__amount-trash"></i>
-                    </div>
-                </div>
-            </article>
-            <article class="cart__card">
-                <div class="cart__box">
-                    <img src="assets/img/cart-2.png" alt="" class="cart__img">
-                </div>
-
-                <div class="cart__details">
-                    <h3 class="cart__title">Cardigan Hoodie</h3>
-                    <span class="cart__price">R$ 98,90</span>
-
-                    <div class="cart__amount">
-                        <div class="cart__amount-content">
-                            <span class="cart__amount-box">
-                                <i class="bx bx-minus"></i>
-                            </span>
-
-                            <span class="cart__amount-number">1</span>
-
-                            <span class="cart__amount-box">
-                                <i class="bx bx-plus"></i>
-                            </span>
-                        </div>
-
-                        <i class="bx bx-trash-alt cart__amount-trash"></i>
-                    </div>
-                </div>
-            </article>
-            <article class="cart__card">
-                <div class="cart__box">
-                    <img src="assets/img/cart-3.png" alt="" class="cart__img">
-                </div>
-
-                <div class="cart__details">
-                    <h3 class="cart__le">Cartoon</h3>
-                    <span class="cart__price">R$ 63,90</span>
 
                     <div class="cart__amount">
                         <div class="cart__amount-content">
@@ -162,9 +162,34 @@
         </div>
 
         <div class="cart__prices">
-            <span class="cart__prices-item">3 Item</span>
-            <span class="cart__prices-total">R$ 160,90</span>
+            <span class="cart__prices-item">3 itens</span>
+            <span class="cart__prices-total">R$ 239,70</span>
         </div>
+    </div>
+    <!--=============== LOGIN ===============-->
+    <div class="login" id="login">
+        <i class="bx bx-x login__close" id="login-close"></i>
+        
+        <h2 class="login__title-center">Fazer login</h2>
+
+        <form action="" class="login__form grid">
+            <div class="login__content">
+                <label for="" class="login__label">E-mail</label>
+                <input type="email" class="login__input">
+            </div>
+            <div class="login__content">
+                <label for="" class="login__label">Senha</label>
+                <input type="password" class="login__input">
+            </div>
+
+            <div>
+                <a href="#" class="button">Entrar</a>
+            </div>
+
+            <div>
+                <p class="singup">Não é cadastrado? <a href="registration.html">Registre-se</a></p>
+            </div>
+        </form>
     </div>
 
     <!--=============== LOGIN ===============-->
@@ -175,20 +200,20 @@
 
         <form action="" class="login__form grid">
             <div class="login__content">
-                <label for="" class="login__label">Email</label>
+                <label for="" class="login__label">E-mail</label>
                 <input type="email" class="login__input">
             </div>
             <div class="login__content">
-                <label for="" class="login__label">Password</label>
+                <label for="" class="login__label">Senha</label>
                 <input type="password" class="login__input">
             </div>
 
             <div>
-                <a href="#" class="button">Sing In</a>
+                <a href="#" class="button">Entrar</a>
             </div>
 
             <div>
-                <p class="singup">Not a member? <a href="registration.html">Sing up now</a></p>
+                <p class="singup">Não é cadastrado? <a href="registration.html">Registre-se</a></p>
             </div>
         </form>
     </div>
@@ -197,22 +222,22 @@
     <main class="main">
         <!--=============== SHOP ===============-->
         <section class="shop section container">
-            <h2 class="breadcrumb__title">Shop Page</h2>
-            <h3 class="breadcrumb__subtitle">Home > <span>Shop</span></h3>
+            <h2 class="breadcrumb__title">Loja</h2>
+            <h3 class="breadcrumb__subtitle">Início> <span>Loja</span></h3>
 
             <div class="shop__container grid">
                 <div class="slidebar">
-                    <h3 class="filter__title">Select Filters</h3>
+                    <h3 class="filter__title">Selecionar filtros</h3>
                     <div class="filter__content">
-                        <h3 filter__subtitle>Condition</h3>
+                        <h3 filter__subtitle>Condição</h3>
 
                         <div class="filter">
                             <input type="checkbox" name="" id="">
-                            <p>New</p> <span>(13)</span>
+                            <p>Novo</p> <span>(13)</span>
                         </div>
                         <div class="filter">
                             <input type="checkbox" name="" id="">
-                            <p>Sale</p> <span>(13)</span>
+                            <p>Usado</p> <span>(13)</span>
                         </div>
                     </div>
 
@@ -243,11 +268,11 @@
                         </div>
                         <div class="filter">
                             <input type="checkbox" name="" id="">
-                            <p>Dressy</p> <span>(9)</span>
+                            <p>Elegante</p> <span>(9)</span>
                         </div>
                         <div class="filter">
                             <input type="checkbox" name="" id="">
-                            <p>Girly</p> <span>(28)</span>
+                            <p>Feminino</p> <span>(28)</span>
                         </div>
                     </div>
 
@@ -256,19 +281,19 @@
 
                         <div class="filter">
                             <input type="checkbox" name="" id="">
-                            <p>Jackets</p> <span>(20)</span>
+                            <p>Jaquetas</p> <span>(20)</span>
                         </div>
                         <div class="filter">
                             <input type="checkbox" name="" id="">
-                            <p>T-shirts</p> <span>(19)</span>
+                            <p>Camisetas</p> <span>(19)</span>
                         </div>
                         <div class="filter">
                             <input type="checkbox" name="" id="">
-                            <p>Shoes</p> <span>(38)</span>
+                            <p>Calçados</p> <span>(38)</span>
                         </div>
                         <div class="filter">
                             <input type="checkbox" name="" id="">
-                            <p>Coats</p> <span>(28)</span>
+                            <p>Casacos</p> <span>(28)</span>
                         </div>                    
                     </div>
 
@@ -278,7 +303,7 @@
 
                 <div class="shop__items grid">
                     <div class="shop__content">
-                        <div class="shop__tag">New</div>
+                        <div class="shop__tag">Novo</div>
                         <img src="assets/img/product-1.png" alt="" class="shop__img">
                         <h3 class="shop__title">Cartoon Jacket</h3>
                         <span class="shop__subtitle">Accessory</span>
@@ -386,52 +411,46 @@
     <footer class="footer section">
         <div class="footer__container grid">
             <!-- FOOTER CONTENT 1-->
-            <div class="footer__content">
-                <a href="#" class="footer__logo">
-                    <i class="bx bx-shopping-bag footer__logo-icon"></i>e-shopper
-                </a>
-
-                <p class="footer__description">Enjoy the biggest sale <br>of your life.</p>
-
                 <ul class="footer__social">
                     <a href="#" class="footer__social-link"> <i class="bx bxl-facebook"></i></a>
                     <a href="#" class="footer__social-link"> <i class="bx bxl-instagram"></i></a>
                     <a href="#" class="footer__social-link"> <i class="bx bxl-twitter"></i></a>
                 </ul>
             </div>
+            <br>
 
             <!--FOOTER CONTENT 2-->
             <div class="footer__content">
-                <h3 class="footer__title">About</h3>
+                <h3 class="footer__title">Sobre</h3>
 
                 <ul class="footer__links">
-                    <li><a href="#" class="footer__link">About Us</a></li>
-                    <li><a href="#" class="footer__link">Costumer Support</a></li>
-                    <li><a href="#" class="footer__link">Support Center</a></li>
+                    <li><a href="#" class="footer__link">Sobre nós</a></li>
+                    <li><a href="#" class="footer__link">Suporte ao cliente</a></li>
+                    <li><a href="#" class="footer__link">Central de suporte</a></li>
                 </ul>
             </div>
             <!--FOOTER CONTENT 3-->
             <div class="footer__content">
-                <h3 class="footer__title">Our Services</h3>
+                <h3 class="footer__title">Nossos serviços</h3>
 
                 <ul class="footer__links">
-                    <li><a href="#" class="footer__link">Shop</a></li>
-                    <li><a href="#" class="footer__link">Discount</a></li>
-                    <li><a href="#" class="footer__link">Shipping mode</a></li>
+                    <li><a href="#" class="footer__link">Loja</a></li>
+                    <li><a href="#" class="footer__link">Desconto</a></li>
+                    <li><a href="#" class="footer__link">Forma de entrega</a></li>
                 </ul>
             </div>
             <!--FOOTER CONTENT 4-->
             <div class="footer__content">
-                <h3 class="footer__title">Our Company</h3>
+                <h3 class="footer__title">Nossa empresa</h3>
 
                 <ul class="footer__links">
-                    <li><a href="#" class="footer__link">Register</a></li>
-                    <li><a href="#" class="footer__link">Contact</a></li>
-                    <li><a href="#" class="footer__link">About Us</a></li>
+                    <li><a href="#" class="footer__link">Cadastro</a></li>
+                    <li><a href="#" class="footer__link">Contato</a></li>
+                    <li><a href="#" class="footer__link">Sobre nós</a></li>
                 </ul>
             </div>
         </div>
-        <span class="footer__copy">&#169; Crypticalcoder. All rights reserved</span>
+        <span class="footer__copy">&#169; Davi Adão codes. All rights reserved</span>
     </footer>
 
     <!--=============== SCROLL UP ===============-->
