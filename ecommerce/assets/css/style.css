@@ -547,12 +547,12 @@ input {
     display: flex;
     justify-content: space-between;
     border-radius: .75rem;
-    width: 5px
+    width: 100%;
 }
 
 .newletter__input {
-    width: 70%;
-    padding: 0 .5rem;
+    width: 90%;
+    padding: 1rem;
     background: none;
     color: var(--title-color);
 }
